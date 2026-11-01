@@ -1,0 +1,10 @@
+{
+  "name": "alessiogs.github.io",
+  "private": true,
+  "type": "module",
+  "description": "Portfolio page listing every repository published on GitHub Pages.",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "serve": "npx --yes serve ."
+  }
+}

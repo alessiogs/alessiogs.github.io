@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects · Alessio Soggiu</title>
+    <meta name="description" content="Portfolio of projects published on GitHub Pages." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <script type="module" src="src/main.js"></script>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <p class="eyebrow">Portfolio</p>
+        <h1 data-owner>Alessio Soggiu</h1>
+        <p class="hero__tagline" data-tagline></p>
+        <a class="btn" data-profile href="https://github.com/alessiogs">GitHub profile →</a>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="toolbar">
+        <label class="search">
+          <span class="visually-hidden">Search projects</span>
+          <input type="search" placeholder="Search by name, language or topic…" data-search disabled />
+        </label>
+        <p class="toolbar__count" data-count aria-live="polite"></p>
+      </div>
+
+      <section data-projects aria-label="Projects"></section>
+    </main>
+
+    <footer class="container footer">
+      <p>© <span data-year></span> · Live data from the GitHub API</p>
+    </footer>
+
+    <noscript><p class="container message">This page needs JavaScript to list the projects.</p></noscript>
+  </body>
+</html>
